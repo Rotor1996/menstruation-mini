@@ -1,0 +1,9 @@
+/* pages/user/user.wxss */
+.button{
+  position: absolute;
+  bottom: 0;
+  width:100vw;
+  background: pink;
+  text-align: center;
+  color: #ffffff;
+}

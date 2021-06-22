@@ -1,0 +1,30 @@
+/* pages/index/index.wxss */
+.title{
+  color: pink;
+  font-size: 50rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.day{
+  font-size: 30rpx;
+  text-align: center;
+  padding: 30rpx;
+}
+.day span{
+  font-weight: bold;
+  font-size: 60rpx;
+  color: pink;
+}
+.tips{
+  text-align: center;
+  color: #dddddd;
+  font-size: 24rpx;
+}
+.button{
+  position: absolute;
+  bottom: 0;
+  width:100vw;
+  background: pink;
+  text-align: center;
+  color: #ffffff;
+}

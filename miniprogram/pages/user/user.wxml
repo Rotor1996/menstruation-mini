@@ -1,0 +1,7 @@
+<!--pages/user/user.wxml-->
+<van-cell-group>
+  <van-cell title="用户名" value="{{login ? userInfo.nickName:'暂无'}}" />
+  <van-cell title="经期设置" value="修改" label="展示用户：小江"/>
+  <van-cell title="详细记录" bindtap="goList"></van-cell>
+</van-cell-group>
+<button wx:if="{{!login}}" class="button" bindtap="userInfo">授权登录</button>

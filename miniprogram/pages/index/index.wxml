@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="title">姨妈来了</view>
+<view class="day">第<span>1</span>天</view>
+<view class="tips">建议喝杯☕</view>
+<button wx:if="{{login}}" class="button" bindtap="getMenstruation">姨妈来了</button>
+<button wx:else class="button" bindtap="userInfo">授权登录</button>
